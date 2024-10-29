@@ -1,14 +1,13 @@
+
 header{
-    background-color:white;
     padding:10px 0;
     display:flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    border-bottom:1px solid black;
 }
 
-form {
-    background-color:white ;
+form{
     width: 250px;
     height:30px;
     border-bottom:1px solid rgb(54, 52, 52);
@@ -65,7 +64,8 @@ a{
 a:hover{
     color:palevioletred;
 }
-a::after{
+
+a::after {
     position:absolute;
     content: "";
     inset: 0;
@@ -80,5 +80,51 @@ a:hover::after{
     scale:1 1;
 }
 
+#Hero{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+#Hero p{
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-wrap: wrap;
+    line-height: 40px;
+    align-content: space-between 10px;
+}
 
+.Quiz{
+    background-color: #f3ede7;
+    border: 2px solid #422800;
+    border-radius: 15px;
+    width: fit-content;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation; 
+}
+.Quiz:hover{
+    background-color: #fff;
+}
+.Quiz:active{
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px,2px);
+}
+@media (min-width: 768px){
+    .Quiz{
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}
