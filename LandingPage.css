@@ -1,0 +1,84 @@
+header{
+    background-color:white;
+    padding:10px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+form {
+    background-color:white ;
+    width: 250px;
+    height:30px;
+    border-bottom:1px solid rgb(54, 52, 52);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+input{
+    all:unset; /* resets the search box*/
+    font: 16px system-ui;
+    color: black;
+    background-color: transparent;
+    padding:0px 10px;
+    flex: 1;
+}
+
+::placeholder{ /* Allows set the style of the placeholder text*/
+    color:black;
+    opacity: 0.7;
+}
+
+button{
+    all:unset;
+    cursor:pointer;
+    width:44px;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+svg{
+    color:black;
+    fill:currentColor;
+    width:24px;
+    height: 24px;
+}
+
+nav{
+    display: flex;
+    gap:15px;
+}
+
+a{
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0.5rem 1rem;
+    color: black;
+    transition: color 0.25s;
+}
+
+a:hover{
+    color:palevioletred;
+}
+a::after{
+    position:absolute;
+    content: "";
+    inset: 0;
+    background: white;
+    scale: 1 0;
+    z-index: -1;
+    transition: 0.45s;
+    border-radius: 10px;
+}
+
+a:hover::after{
+    scale:1 1;
+}
+
+
+
