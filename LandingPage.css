@@ -156,3 +156,7 @@ a:hover::after{
     width: fit-content;
     border-radius: 5px;
 }
+img{
+    width: 110px;
+    height:150px;
+}
