@@ -151,7 +151,7 @@ a:hover::after{
     margin-bottom: 10px;
 }
 
-.Book1, .Book2, .Book3, .Book4, .Book5, .Book6{
+.Book1, .Book2, .Book3, .Book4, .Book5, .Book6, .Book7, .Book8, .Book9, .Book10{
     border: 2px solid black;
     padding: 10px;
     width: fit-content;
@@ -217,4 +217,21 @@ img{
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     color:#422800;
+}
+
+@keyframes scrollHorizontally{
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+
+    }
+}
+
+.Book-Grid{
+    display:flex;
+    gap:20px;
+    width: max-content;
+    animation:scrollHorizontally 30s linear infinite;
 }
