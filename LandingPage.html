@@ -8,6 +8,7 @@
     Find your next great read on our curated book recommendation sight.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="LandingPage.css">
+    <script src="books.js" defer></script>
 </head>
 <body>
     <header>
@@ -40,120 +41,15 @@
             <div class="V"> <!--V--vibes-->
                 <p style="font-size:25px;font-family:'Times New Roman', Times, serif;color: rgb(40, 38, 38);display:flex;flex-direction:column;
                 align-content:center; justify-content:center;flex-wrap:wrap;" >
-                    Popular in October
+                    Popular Books
                 </p>
             </div>
-            <div class="Book-Grid">
-                <div class="Book1">
-                    <img src="pic2.jpg" alt="Book Cover">
-                    <h3>The Invisible life of Addie Laurie</h3>
-                    <p>V.E. Schwab</p>
-                </div>
-
-                <div class="Book2">
-                    <img src="pic1.jpg" alt="Book Cover">
-                    <h3>A Pslam For The Wild Built</h3>
-                    <p>Becky Chambers</p>
-                </div>
-
-                <div class="Book3">
-                    <img src="pic3.jpg" alt="Book Cover">
-                    <h3>The Secret History</h3>
-                    <p>Donna Tartt</p>
-                </div>
-
-                <div class="Book4">
-                    <img src="pic4.jpg" alt="Book Cover">
-                    <h3>Bunny</h3>
-                    <p>Mona Awad</p>
-                </div>
-
-                <div class="Book5">
-                    <img src="pic5.jpg" alt="Book Cover">
-                    <h3>The Likeness</h3>
-                    <p>Tana French</p>
-                </div>
-
-                <div class="Book6">
-                    <img src="pic6.jpg" alt="Book Cover">
-                    <h3>House of Cotton</h3>
-                    <p>Monica Brashears</p>
-                </div>
-                <div class="Book7">
-                    <img src="pic7.jpg" alt="Book Cover">
-                    <h3>Our Wives Under The Sea</h3>
-                    <p>Julia Armfield</p>
-                </div>
-                <div class="Book8">
-                    <img src="pic8.jpg" alt="Book Cover">
-                    <h3>Annihilation</h3>
-                    <p>Jeff Vandermeer</p>
-                </div>
-                <div class="Book9">
-                    <img src="pic9.jpg" alt="Book Cover">
-                    <h3>Wuthering heights</h3>
-                    <p>Emily Bronte</p>
-                </div>
-                <div class="Book10">
-                    <img src="pic10.jpg" alt="Book Cover">
-                    <h3>Rebecca</h3>
-                    <p>Daphne Du Maurier</p>
-                </div>
-                <!--Duplicating to make look better-->
-                <div class="Book1">
-                    <img src="pic2.jpg" alt="Book Cover">
-                    <h3>The Invisible life of Addie Laurie</h3>
-                    <p>V.E. Schwab</p>
-                </div>
-
-                <div class="Book2">
-                    <img src="pic1.jpg" alt="Book Cover">
-                    <h3>A Pslam For The Wild Built</h3>
-                    <p>Becky Chambers</p>
-                </div>
-
-                <div class="Book3">
-                    <img src="pic3.jpg" alt="Book Cover">
-                    <h3>The Secret History</h3>
-                    <p>Donna Tartt</p>
-                </div>
-
-                <div class="Book4">
-                    <img src="pic4.jpg" alt="Book Cover">
-                    <h3>Bunny</h3>
-                    <p>Mona Awad</p>
-                </div>
-
-                <div class="Book5">
-                    <img src="pic5.jpg" alt="Book Cover">
-                    <h3>The Likeness</h3>
-                    <p>Tana French</p>
-                </div>
-
-                <div class="Book6">
-                    <img src="pic6.jpg" alt="Book Cover">
-                    <h3>House of Cotton</h3>
-                    <p>Monica Brashears</p>
-                </div>
-                <div class="Book7">
-                    <img src="pic7.jpg" alt="Book Cover">
-                    <h3>Our Wives Under The Sea</h3>
-                    <p>Julia Armfield</p>
-                </div>
-                <div class="Book8">
-                    <img src="pic8.jpg" alt="Book Cover">
-                    <h3>Annihilation</h3>
-                    <p>Jeff Vandermeer</p>
-                </div>
-                <div class="Book9">
-                    <img src="pic9.jpg" alt="Book Cover">
-                    <h3>Wuthering heights</h3>
-                    <p>Emily Bronte</p>
-                </div>
-                <div class="Book10">
-                    <img src="pic10.jpg" alt="Book Cover">
-                    <h3>Rebecca</h3>
-                    <p>Daphne Du Maurier</p>
+            <div class="Book-Grid-Container">
+                <div class="Book-Grid">
+                    <!-- Books will be dynamically loaded here -->
+                    <div class="loading" style="text-align: center; width: 100%;">
+                        <p>Loading books...</p>
+                    </div>
                 </div>
             </div>
         </section>

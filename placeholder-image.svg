@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="225" viewBox="0 0 150 225">
+    <rect width="150" height="225" fill="#f0f0f0"/>
+    <text x="75" y="112.5" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">No Cover Available</text>
+    <path d="M45 82.5 h60 v60 h-60 z" fill="none" stroke="#666" stroke-width="2"/>
+    <path d="M60 112.5 l15 -15 l15 15 m-22.5 -7.5 a7.5 7.5 0 1 1 0 -0.1" fill="none" stroke="#666" stroke-width="2"/>
+</svg>
