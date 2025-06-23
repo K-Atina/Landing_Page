@@ -1,5 +1,5 @@
 // Google Books API handling
-const API_KEY = 'AIzaSyApiO1Z3lCdd7T0enCZlHl3JNJmxougw4g';
+
 const BOOKS_API_URL = 'https://www.googleapis.com/books/v1/volumes';
 
 let currentPage = 0;
